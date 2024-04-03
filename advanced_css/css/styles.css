@@ -1,0 +1,92 @@
+/* Global Styles */
+
+body {
+    background-color: black;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a{ 
+ color: white;
+}
+
+
+a:hover {
+    color:black
+    text-decoration 
+}
+
+
+#container {
+    background-color:grey;
+    width: 75%;
+    margin: 20px auto;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+/* Remaining names */
+
+
+nav {
+    background-color: black;
+    padding: 5px 0;
+    text-align: right;
+}
+
+
+nav ul { 
+    list-style-type: none
+    padding 0
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+margin-right: 20px;
+text-decoration: none;
+font-size: 20px;
+}
+
+header h1 {
+    
+    font-size: 50px;
+    text-shadow: 2px 2px 2px ;
+}
+
+main {
+    padding: 20px;
+}
+
+main img{
+    width:50%;
+}
+
+#lower {
+    display: flex;
+}
+
+.col {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    width: 26.3%;
+}
+
+
+footer {
+    padding:40px 0;
+    text-align: center
+}
+
+hr{
+    width: 90%;
+}
